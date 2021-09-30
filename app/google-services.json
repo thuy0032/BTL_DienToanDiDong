@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "360738603051",
+    "project_id": "dowload-8df6d",
+    "storage_bucket": "dowload-8df6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360738603051:android:2c222b5a986b2508402a6e",
+        "android_client_info": {
+          "package_name": "com.nhatnguyen.youtubedowload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360738603051-v0u9o50d4n8hma4c1c20bpiod7u88pfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkwFiAz8wvskFvEqR8Y-b4UWU9cPbE-mk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360738603051-v0u9o50d4n8hma4c1c20bpiod7u88pfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

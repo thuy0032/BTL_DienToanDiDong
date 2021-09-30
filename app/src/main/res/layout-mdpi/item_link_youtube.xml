@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/bg_white_corner"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_top_coner_yellow"
+        android:gravity="center"
+       android:padding="12dp"
+        android:text="Tải Video Youtube"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <EditText
+        android:background="@drawable/box"
+        android:padding="7dp"
+       android:layout_margin="10dp"
+        android:hint="Link Video Youtube "
+        android:id="@+id/edit_link"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/btnDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/backgroundbottom5"
+            android:text="Tải Xuống"
+            android:textSize="12sp"
+            app:backgroundTint="@color/red_light" />
+
+</LinearLayout>
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:elevation="40dp"
+    android:background="@drawable/bg_white_corner"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_top_coner_yellow"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Thêm Video"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <EditText
+        android:hint="Tiêu đề"
+        android:layout_margin="20dp"
+        android:id="@+id/edit_title"
+        android:background="@drawable/box"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/box"
+        android:padding="10dp"
+        android:hint="ID Video "
+        android:id="@+id/edit_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Link Youtube : https://www.youtube.com/watch?v=QDJgzJVVE2Y  =>  idVideo = 'QDJgzJVVE2Y'"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/box"
+            android:text="Trở về"
+            android:alpha="0.4"
+            app:backgroundTint="#555955" />
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="@drawable/backgroundbottom5"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/red_light"
+            android:text="Thêm"/>
+    </LinearLayout>
+</LinearLayout>
+
